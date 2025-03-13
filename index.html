@@ -9,34 +9,65 @@
 <body> 
     <header> 
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <button id="home-button">Home</button>
+            <button id="about-button">About</button>
+            <button id="projects-button">Projects</button>    
+            <button id="contact-button">Contact</button>
+            <style>
+                button {
+                    margin-right: 10px;
+                    padding: 5px 10px;
+                    background-color: #333;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #555;
+                }
+                button:active {
+                    background-color: #777; 
+                }
+            </style>
         </nav>
     </header>
 
     <section id="home">
         <h1>Welcome</h1>
-        <p>Hi, I'm James Traylor, a Full Stack Developer</p>
+        <h2>James Traylor</h2>
+        <h3>Aspiring Full-Stack Developer</h3>
+        <p>Hi, I'm James Traylor.</p>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm James Traylor, a Full Stack Developer</p>
+        <p>This is my about me!</p>
     </section>  
 
     <section id="projects">
         <h2>Projects</h2>
-        <p>Hi, I'm James Traylor, a Full Stack Developer</p>
+        <p>These are my projects with links!</p>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Hi, I'm James Traylor, a Full Stack Developer</p>    
+        <p>Here is where you can find me!</p>    
     </section>
+
+    <footer>
+        <h3>James Traylor</h3>
+        <style>
+            footer {
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+            h4 {
+                text-align: center;
+            }
+        </style>
+    </footer>
 
     <script src="script.js"></script>
 </body>
